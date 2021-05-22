@@ -82,13 +82,14 @@ h1 { text-transform: capitalize; font-weight: bold; line-height: 1.5; font-size:
 @media screen and (max-width:750px){
 #one .wallet-details p span { margin-left: 0rem; }
 #one .cope-details h1 span { margin-left: 9rem; }
+#one .cope-details h1 img { margin-top: -1rem; } 
 #one .buttons { margin-left: 4rem; margin-top: 1rem; }
 
 #two h4 { margin-left: 1rem; }
 #two h4 .move-span { margin-left: 0rem; }
 #two h4 span { margin-left: 2rem; text-transform: capitalize; }
 #two mat-expansion-panel-header h1 span { margin-left: 0rem; }
-#two mat-expansion-panel-header h1 img { width: 7%; }
+#two mat-expansion-panel-header h1 img { width: 7%; margin-top: -1rem; }
 }
 
 @media screen and (max-width:650px){
