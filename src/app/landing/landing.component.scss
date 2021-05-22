@@ -1,0 +1,108 @@
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+
+// --------------------- GENERAL -----------------------------
+// .buttons { margin-left: 27rem; }
+button { border: none; text-transform: uppercase; font-family: 'Josefin Sans', sans-serif; margin-left: 1rem; border-radius: 0rem; }
+h4, h1 { font-family: 'Josefin Sans', sans-serif; }
+p { font-family: 'Montserrat', sans-serif; font-size: 0.6rem; color: rgb(104, 103, 103); }
+h4 { text-transform: capitalize; font-weight: bold; line-height: 1.5; font-size: 1rem; }
+h1 { text-transform: capitalize; font-weight: bold; line-height: 1.5; font-size: 0.7rem;}
+//---------------------- END OF GENERAL ------------------------
+
+// --------------------- ONE -----------------------------
+#one .card { padding: 1rem; border: none; border-radius: 0rem; box-shadow:1px 1px 0px 2px rgb(226, 226, 226); }
+#one .wallet-details p { font-weight: 600; color: #aaa; text-transform: uppercase; letter-spacing: 0.1rem; }
+#one .wallet-details p span { margin-left: 33rem; }
+#one .cope-details h1 { letter-spacing: 0.13rem; }
+#one .cope-details h1 img { width: 4%; }
+#one .cope-details h1 span { margin-left: 52rem; }
+#one .buttons { margin-left: 27rem; }
+#one button { font-size: 0.7rem; }
+// --------------------- END OF ONE -----------------------------
+
+
+// --------------------- TWO -----------------------------
+#two h4 { font-size: 1rem; margin-left: 7.3rem; }
+#two h4 .move-span { margin-left: 49rem; }
+#two h4 span { margin-left: 2rem; text-transform: capitalize; }
+#two mat-expansion-panel-header { padding-top: 0.5rem; }
+#two mat-expansion-panel-header h1 { letter-spacing: 0.13rem; }
+#two mat-expansion-panel-header h1 img { width: 2%; }
+#two mat-expansion-panel-header h1 span { margin-left: 52rem; }
+#two button { font-size: 0.7rem; }
+// --------------------- END OF TWO -----------------------------
+
+// --------------------- THREE -----------------------------
+
+// --------------------- END OF THREE -----------------------------
+
+// --------------------- FOUR -----------------------------
+
+// --------------------- END OF FOUR -----------------------------
+
+// --------------------- FIVE -----------------------------
+
+
+// ------------------SUBSCRIBE MAT-FORM START------------------
+#five ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: #fff!important;
+}
+//mat-input focused color
+#five ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: rgb(221, 221, 221)!important;
+}
+// mat-label normal state style
+#five ::ng-deep .mat-form-field-label {
+  color: #fff!important;
+  // text-align: center;
+  // color: $mainColor!important;
+}
+#five ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-end {
+  border-radius: 0px !important;
+}
+#five ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-start {
+  border-radius: 0px !important;
+}
+// ------------------ SUBSCRIBE MAT-FORM END------------------
+// ------------------ END OF FIVE -----------------------------------------
+
+
+// ------------------------ Mobile Devices -----------------------------------
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:900px){
+
+}
+
+
+@media screen and (max-width:750px){
+#one .wallet-details p span { margin-left: 0rem; }
+#one .cope-details h1 span { margin-left: 9rem; }
+#one .buttons { margin-left: 4rem; margin-top: 1rem; }
+
+#two h4 { margin-left: 1rem; }
+#two h4 .move-span { margin-left: 0rem; }
+#two h4 span { margin-left: 2rem; text-transform: capitalize; }
+#two mat-expansion-panel-header h1 span { margin-left: 0rem; }
+#two mat-expansion-panel-header h1 img { width: 7%; }
+}
+
+@media screen and (max-width:650px){
+
+}
+
+@media screen and (max-width:550px){
+
+}
+
+@media screen and (max-width:450px){
+
+}
+
+@media screen and (max-width:350px){
+
+}

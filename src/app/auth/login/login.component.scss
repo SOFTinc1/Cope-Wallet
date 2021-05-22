@@ -1,0 +1,93 @@
+section { width: 90%;  }
+
+#register img { width:100%; height: 42rem; }
+#register .heading { margin-top: 1rem; margin-bottom: 2rem; }
+// #register .register-form { padding: 1rem; }
+#register mat-label { font-family: 'Montserrat', sans-serif; text-transform: capitalize; }
+// #register .form-one { margin-left: 7.2rem; }
+// #register .form-two { margin-right: 7.2rem; }
+h1, p { text-transform: capitalize; }
+h1 { font-family: 'Montserrat', sans-serif; font-size: 4rem; }
+p { font-family: 'Josefin Sans', sans-serif; color: rgba(0,0,0,.6)!important; }
+#register button { font-size: 1rem; font-weight: 600; border: 1px solid rgba(219, 219, 219, 0.747); border-radius: 0px !important; text-transform: uppercase; transition: all .9s ease-out; font-family: 'Montserrat', sans-serif; }
+#register a { color: rgba(0,0,0,.6); }
+.social-login a i { padding-left: 1rem; padding-right: 1rem;padding-bottom: 0.8rem; padding-top: 0.8rem; font-size: 2rem; }
+.social-login { margin-left: 13rem; }
+.social-login .i-one i { background-color: rgb(26, 93, 182); color: #fff; padding-left: 1.3rem; padding-right: 1.3rem;padding-bottom: 0.9rem; padding-top: 0.9rem; }
+.social-login .i-two i { color: rgb(218, 2, 2); border: 2px solid rgba(139, 139, 139, 0.603); }
+// mat-icon-stepper selected color change
+// ::ng-deep .mat-step-header .mat-step-icon-selected, .mat-step-header .mat-step-icon-state-done, .mat-step-header .mat-step-icon-state-edit {
+//   background-color: red!important;
+// }
+
+//input outline color
+// ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+//   color: rgb(146, 14, 187)!important;
+// }
+mat-form-field { width: 100%; }
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick { color: var(--app-priamry-color); }
+
+//mat-input focused color
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: rgb(146, 14, 187)!important;
+}
+// mat-label normal state style
+::ng-deep .mat-form-field-label {
+  color: rgba(0,0,0,.6)!important;
+  // color: $mainColor!important;
+}
+// mat-label focused style
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: black!important;
+}
+// mat-label error style
+// ::ng-deep .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+//   color: red!important;
+// }
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-end {
+  border-radius: 0px !important;
+}
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline-start {
+  border-radius: 0px !important;
+}
+
+
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:1200px){
+  section { width: 100%;  }
+  .social-login { margin-left: 10.5rem; }
+}
+
+@media screen and (max-width:900px){
+  section { width: 100%;  }
+  .social-login { margin-left: 7.5rem; }
+}
+
+@media screen and (max-width:750px){
+  section { padding: 1rem; background-image: url('forget-password/images/bg.jpg'); background-size: cover; height: 50rem;  }
+  section .dark-overlay { background: rgba(0, 0, 0, 0.445); min-height: 50rem; margin-top: -1rem; }
+  .card-for-mobile { background-color: #fff; padding-top: 1rem; padding-bottom: 1rem; margin-top: 0.5rem; border-radius: 0.3rem; }
+  #register img { width: 100%; display: none; }
+  .social-login { margin-left: 0rem; }
+  .social-login .i-one { margin-right: 6rem; }
+  .social-login .i-two { margin-top: -2rem; margin-left: 4rem; }
+}
+
+@media screen and (max-width:650px){
+  section { width: 100%;  }
+}
+
+@media screen and (max-width:550px){
+  section { width: 100%;  }
+}
+
+@media screen and (max-width:450px){
+  section { width: 100%;  }
+}
+
+@media screen and (max-width:350px){
+  section { width: 100%;  }
+}

@@ -1,0 +1,26 @@
+.col1 h1 { margin-top: 0.7rem; font-size: 1.5rem; font-family: 'Montserrat', sans-serif; font-weight: 600; }
+.col1 p { margin-top: 1rem; color: #000; font-family: 'Montserrat', sans-serif; font-size: 12px; font-weight: 600; }
+.col1 address { font-weight: 600; }
+.col2 a { color: #000; font-family: 'Montserrat', sans-serif; font-size: 15px; text-transform: capitalize; font-weight: 600; }
+.col3 h1 { font-size: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 600; text-transform: capitalize; margin-right: 0.2rem; }
+.col3 span { margin-left: 1rem; }
+.col3 span a i { background: #000; color: #fff; }
+.bottom-footer { padding-bottom: 1rem; }
+.bottom-footer p { text-transform: capitalize; font-family: 'Montserrat', sans-serif; font-size: 0.8rem; font-weight: 600; }
+.bottom-footer .space-me { margin-left: 1rem; margin-right: 1rem; }
+
+
+
+@media screen and (max-width:900px){
+  .col3 .icons { margin-left: -5rem; }
+}
+
+@media screen and (max-width:750px){
+  .col1 { border-bottom: 1px solid rgb(201, 200, 200); }
+  .col2 { border-bottom: 1px solid rgb(201, 200, 200); }
+  .col2 ul li a { text-align: left; }
+  .col3 { margin-top: 1rem; border-bottom: 1px solid rgb(201, 200, 200); margin-bottom: 1rem; }
+  .col3 h1 { text-align: left; margin-bottom: 1rem; }
+  .col3 .icons { text-align: left; margin-bottom: 1rem; }
+  hr { display: none; }
+}
